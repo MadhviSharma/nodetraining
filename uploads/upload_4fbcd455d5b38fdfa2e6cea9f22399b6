@@ -1,0 +1,29 @@
+to check version -> node -v
+to check npm version -> npm -v
+to install latest npm version -> npm install -g npm
+-g is for global depenedeny
+npm init -> to init project in node.js
+version 2.5.7
+once project is created package.json is created which holds dependencies which are downloaded in node modules
+to run file -> node {filename}.js
+
+change script in package.json
+run it with -> npm start
+
+to open compute/debug terminal -> node
+
+new project 
+
+npm init -y -> created package.json in new project
+npm install node-persist@0.0.6 --save -> downloads local dependencies and saves in local  {dependency name@version --save-exact}} saves exact version as specified
+npm install yargs@3.15.0 --save -> install yargs
+carrot(^) symbol in json indicates that newer versions of dependency will be installed, rather than defined ones
+
+
+npm shrinkwrap - to propagate the dependencies amongst all the children of the project
+npm install -g  npmvet
+npmvet -r inlinetable -> to get locked/unlocked status of dependencies
+npm outdated -> get current,latest and required versions of dependencies
+
+
+
